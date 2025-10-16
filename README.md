@@ -2,7 +2,7 @@
 Tugas 5 — API Automation Testing dengan Mocha, Chai, AJV, dan Mochawesome
 
 Tujuan Proyek
-Proyek ini mensimulasikan pengujian API menggunakan pendekatan QA profesional. Fokus utama adalah menguji endpoint GET, POST, PATCH, 
+mensimulasikan pengujian API menggunakan pendekatan dan Fokus utama adalah menguji endpoint GET, POST, PATCH, 
 dan DELETE dengan validasi struktur JSON menggunakan AJV dan laporan otomatis menggunakan Mochawesome.
 
 ---
