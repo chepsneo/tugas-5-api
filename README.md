@@ -1,5 +1,4 @@
 # tugas-5-api
-# tugas-5-api
 Tugas 5 — API Automation Testing dengan Mocha, Chai, AJV, dan Mochawesome
 
 Tujuan Proyek
