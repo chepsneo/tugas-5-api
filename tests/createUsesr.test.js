@@ -3,12 +3,15 @@ const Ajv = require("ajv");
 const ajv = new Ajv({ allErrors: true });
 
 /**
- * 🔧 Penjelasan:
+ * Penjelasan:
+ * sy memodifikasi beberapa haal karena ada beberapa proses tdk berjalan sesauai arahan baik di vidio atau di makala, seperti endpoint 
+ * reqres yang sudah tidak bisa diakses bebas sya ganti dengan jsonplaceholder agar bisa tetap melakukan pengujian POST dan validasi response.
+ * 
  * File ini awalnya digunakan untuk menguji endpoint POST /api/register milik Reqres.
  * Namun, endpoint tersebut sekarang memerlukan API key aktif dan valid, sehingga test lama gagal dengan status 401 Unauthorized.
  * 
  * Untuk menyelesaikan tugas POST dan tetap bisa melakukan validasi response, kita ganti isi test-nya menggunakan endpoint dummy dari:
- * 🔗 https://jsonplaceholder.typicode.com/users
+ * https://jsonplaceholder.typicode.com/users
  * 
  * Endpoint ini tidak memerlukan API key dan tetap mengembalikan response JSON yang bisa divalidasi.
  * 
@@ -60,7 +63,10 @@ describe("POST User - Simulasi dengan jsonplaceholder", () => {
 });
 
 /**
- * ❌ Test lama yang gagal karena endpoint Reqres sekarang butuh API key:
+ * SEMOGA PENEJELASN INI DAPAT MEMBANTU DAN MEMUDAHKAN PEMAHAMAN TENTANG MODIFIKASI YANG DILAKUKAN.
+ * 
+ * 
+ * Test lama yang gagal karena endpoint Reqres sekarang butuh API key:
  * 
  * // it("should register user successfully with valid credentials", async () => {
  * //   const requestBody = {
