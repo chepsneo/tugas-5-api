@@ -4,16 +4,6 @@ Tugas 5 — API Automation Testing dengan Mocha, Chai, AJV, dan Mochawesome
 pengujian API menggunakan pendekatan dan Fokus utama adalah menguji endpoint GET, POST, PATCH, 
 dan DELETE dengan validasi struktur JSON menggunakan AJV dan laporan otomatis menggunakan Mochawesome.
 
----
-
-Tools & Teknologi yang dugunakan :
-- [Mocha](https://mochajs.org/) — Test runner
-- [Chai](https://www.chaijs.com/) — Assertion library
-- [AJV](https://ajv.js.org/) — JSON Schema validator
-- [Mochawesome](https://github.com/mochajs/mochawesome) — HTML report generator
-- [Node.js](https://nodejs.org/) — Runtime environment
-
-
 Struktur Folder tdk sesuai arahan :
 tugas-5-api/ 
 ├── tests/   
